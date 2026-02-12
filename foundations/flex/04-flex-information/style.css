@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+.container{
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.info-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  }
+
+.content-box{
+  display: flex;
+  margin:20px 50px;
+  gap:50px;
+
+}
+/* .img-cont-1,.img-cont-2,.img-cont-3,.img-cont-4{ 
+  display: column;
+  align-content:space-around;
+  align-items: center;
+  justify-content: center;
+  
+ } */
+  .image1,.image2,.image3,.image4{
+    display: flex;
+    align-self: center;
+  }
